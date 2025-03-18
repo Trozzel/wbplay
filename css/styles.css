@@ -30,7 +30,7 @@ body {
     cursor: pointer;
 }
 
-.search-btn > a {
+.nav-btn > a {
     text-decoration: none;
     text-transform: uppercase;
 }

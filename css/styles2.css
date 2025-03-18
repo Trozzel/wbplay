@@ -32,3 +32,7 @@ body {
     cursor: pointer;
     background-color: burlywood;
 }
+
+.nav-search-btn {
+    margin-left: auto;
+}

@@ -1,0 +1,24 @@
+body {
+    display: grid;
+    height: 200px;
+    grid-template-areas: "head head"
+                         "nav main"
+                         "footer footer";
+    grid-template-columns: 30px 1fr 30px;
+    grid-template-rows: 150px 1fr;
+}
+
+header {
+    grid-area: head;
+    background-color: lightsalmon;
+}
+
+.nav-bar {
+    grid-area: nav;
+    background-color: lightyellow;
+}
+
+footer {
+    grid-area: footer;
+    background-color: firebrick;
+}

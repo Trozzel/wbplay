@@ -18,7 +18,10 @@ body {
 
 .nav-btn {
     margin: 3px 5px;
+    padding: 10px;
     background-color: green;
+    text-align: center;
+    text-decoration: none;
 }
 
 [class$="-btn"] {

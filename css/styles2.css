@@ -2,8 +2,15 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+nav {
+    display: flex;
+    flex: 0.9;
+    background-color: lightgoldenrodyellow;
+}
+
 .nav-outer {
     display: flex;
+    flex: 1;
     padding: 1.25rem;
     margin: 1.25rem;
     justify-content: center;
@@ -12,11 +19,11 @@ body {
 }
 
 .nav-inner {
-    background-color: lightgoldenrodyellow;
     display: inline-flex;
     justify-content: stretch;
     margin-right: 5px;
     padding: 0 10px;
+    flex-grow: 1;
 }
 
 .nav-item {

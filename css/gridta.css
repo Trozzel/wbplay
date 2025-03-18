@@ -19,7 +19,8 @@ header {
 }
 
 main {
-    
+    grid-area: main;
+    background-color: brown;
 }
 
 footer {

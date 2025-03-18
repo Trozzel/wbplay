@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-outer {
+    display: flex;
+    padding: 1.25rem;
+    margin: 1.25rem;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+}
+
+.nav-inner {
+    background-color: lightgoldenrodyellow;
+    display: inline-flex;
+    justify-content: stretch;
+    margin-right: 5px;
+    padding: 0 10px;
+}
+
+.nav-item {
+    background-color: darkmagenta;
+    border-radius: 6px;
+}
+
+.nav-item:hover {
+    cursor: pointer;
+    background-color: magenta;
+}

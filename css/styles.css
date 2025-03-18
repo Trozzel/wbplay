@@ -8,29 +8,36 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.nav-outer {
+.nav-bar {
     display: flex;
-    padding: 1.25rem;
-    margin: 1.25rem;
-    justify-content: center;
     align-items: center;
-    padding: 8px 16px;
-}
-
-.nav-inner {
-    background-color: lightgoldenrodyellow;
-    display: inline-flex;
     justify-content: stretch;
-    margin-right: 5px;
-    padding: 0 10px;
+    padding: 20px 10px;
+    margin: 10px 0;
+    background-color: bisque;
 }
 
-.nav-item {
-    background-color: darkmagenta;
-    border-radius: 6px;
+.nav-list {
+    display: flex;
+    justify-content: left;
 }
 
-.nav-item:hover {
+.nav-btn {
+    margin: 3px 5px;
+    background-color: green;
+}
+
+[class$="-btn"] {
+    border: none;
+    border-radius: 4px;
     cursor: pointer;
-    background-color: magenta;
+}
+
+.search-btn {
+    margin-left: auto;
+}
+
+.search-text {
+    flex: 1 0 auto;
+    border: none;
 }

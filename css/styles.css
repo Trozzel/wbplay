@@ -30,8 +30,13 @@ body {
     cursor: pointer;
 }
 
+.search-btn > a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
 .search-btn {
-    margin-left: auto;
+    justify-self: right;
 }
 
 .search-text {

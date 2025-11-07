@@ -1,0 +1,26 @@
+# GitHub Copilot Configuration
+
+# This file provides hints to GitHub Copilot about the project structure
+# and helps it provide better suggestions
+
+project_type: web_development
+languages:
+  - html
+  - css
+  - javascript
+
+# Enable Copilot for all file types in this project
+enable_for_all: true
+
+# Project context
+description: |
+  Web-based programming templates and reusable components.
+  Focus on HTML structure, CSS styling, and JavaScript functionality.
+
+# Suggestions preferences
+suggestions:
+  style_guide: modern
+  framework_hints:
+    - vanilla_js
+    - semantic_html
+    - responsive_css
